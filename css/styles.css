@@ -22,6 +22,10 @@ h2 {
   display: none;
 }
 
+a:hover, input:hover, .footer-social-media-links > li > svg:hover {
+  cursor: pointer;
+}
+
 /* Header */
 header {
   display: flex;
@@ -41,6 +45,11 @@ nav > a {
   color: hsl(322, 100%, 66%);
   border: 1px solid hsl(322, 100%, 66%);
   border-radius: 500px;
+}
+
+nav > a:hover {
+  color: hsl(321, 100%, 78%);
+  border-color: hsl(321, 100%, 78%);
 }
 /* Main */
 main {
@@ -72,6 +81,11 @@ main {
   background-color: hsl(322, 100%, 66%);
   box-shadow: 0 1rem 3rem hsla(0, 0%, 0%, 0.175);
   border-radius: 500px;
+}
+
+.landing-intro > a:hover {
+  background-color: hsl(321, 100%, 78%);
+  border-color:hsl(321, 100%, 78%);
 }
 
 #hero-img {
@@ -177,6 +191,11 @@ main {
   box-shadow: 0 1rem 3rem hsla(0, 0%, 0%, 0.175);
   border-radius: 500px;
 }
+
+.landing-cta > a:hover {
+  border-color: hsl(321, 100%, 78%);
+  background-color: hsl(321, 100%, 78%);
+}
 /* Footer */
 footer {
   display: flex;
@@ -235,6 +254,19 @@ footer {
   border-radius: 2px;
 }
 
+#icon-facebook > svg:hover {
+  background-color: #4267B2;
+  fill: #FFFFFF;
+}
+
+#icon-instagram > svg:hover {
+  fill: #4c68d7;
+}
+
+#icon-twitter > svg:hover > path {
+  fill: #00acee;
+}
+
 .footer-newsletter-form {
   order: 1;
   margin: 3rem 0 6rem 0;
@@ -282,4 +314,8 @@ footer {
   background-color: hsl(322, 100%, 66%);
   border-radius: 5px;
   font-weight: 600;
+}
+
+#newsletter-submit-input:hover {
+  background-color: hsl(321, 100%, 78%);
 }
